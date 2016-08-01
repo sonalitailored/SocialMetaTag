@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.6" type="plugin" group="content" method="upgrade">
+    <name>PLG_CONTENT_IWCSOCIALMETA</name>
+    <author>Tasolglobal</author>
+    <creationDate>July 2016</creationDate>
+    <copyright>Copyright (C) 2016 Tasolglobal. All rights reserved.</copyright>
+    <authorEmail>roger@tasolglobal.com</authorEmail>
+    <authorUrl>http://www.tasolglobal.com/</authorUrl>
+    <version>1.0.0</version>
+    <description>PLG_CONTENT_IWCSOCIALMETA_XML_DESCRIPTION</description>
+    <files>
+        <filename plugin="iwcsocialmeta">iwcsocialmeta.php</filename>
+	    <folder>forms</folder>
+    </files>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.plg_content_iwcsocialmeta.ini</language>
+        <language tag="en-GB">en-GB/en-GB.plg_content_iwcsocialmeta.sys.ini</language>
+    </languages>
+</extension>
