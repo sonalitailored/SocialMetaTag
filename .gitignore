@@ -1,0 +1,61 @@
+# OSX
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# PHPStorm
+.idea/
+
+# Sublime Text
+*.sublime*
+
+# Eclipse
+.buildpath
+.project
+.settings
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+*~.nib
+*~
+
+# Ignore mergetool files
+*.orig
+
+# Phing build script
+build.properties
+phing-latest.phar
+
+# Gulp Build script
+gulp-config.json
+npm-debug.log
+node_modules/
+
+# Composer
+composer.phar
+vendor/*
+tests/vendor/*
+
+# Test related files
+tests/system/servers/configdef.php
+tests/system/webdriver/tests/logs/
+tests/acceptance.suite.yml
+codecept.phar
+tests/*/*Tester.php
+selenium.log
+tests/_output
+tests/joomla-cms3
+selenium-server-standalone.jar
+tests/_support/_generated/*
+
+# Never ignore
+!.gitignore
+!index.html
+!index.php
