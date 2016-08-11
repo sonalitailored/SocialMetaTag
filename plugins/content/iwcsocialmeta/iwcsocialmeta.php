@@ -1,15 +1,9 @@
 <?php
 /**
+ * @package     Joomla.Plugin
  * @subpackage  Content.socialcustommetatag
  * @copyright   Copyright (C) 2016 - Tasolglobal. All rights reserved.
  * @license     GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
- */
-
-/**
- * Plug-in will inject extra fields for social media meta data to article
- *
- * @package     Joomla.Plugin
- * @subpackage  Content.socialcustommetatag
  * @since       3.6
  */
 
