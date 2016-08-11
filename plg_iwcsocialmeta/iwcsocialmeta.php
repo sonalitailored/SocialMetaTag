@@ -209,7 +209,7 @@ class PlgContentIwcsocialmeta extends JPlugin
 		}
 		return true;
 	}
-   
+
 	/**
 	 * Called when article is being prepared for display,Here HTML can be injected into what will be displayed
 	 *
