@@ -1,0 +1,14 @@
+{
+    "name": "InstaWebCare/SocialMetaTag",
+    "type": "library",
+    "description": "Insta Web Care - Social Meta tag manager plugin for Joomla!",
+    "keywords": ["joomla", "cms", "SocialMetaTag"],
+    "homepage": "https://github.com/InstaWebCare/SocialMetaTag",
+    "license": "GPL-2.0+",
+    "support": {
+        "issues":"https://github.com/InstaWebCare/SocialMetaTag/issues"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "~1.5"
+    }
+}

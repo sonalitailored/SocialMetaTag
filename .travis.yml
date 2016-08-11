@@ -1,0 +1,17 @@
+# Forces new Travis-CI Infrastructure
+sudo: false
+
+language: php
+
+env:
+  global:
+    - RUN_PHPCS="yes"
+php:
+  - 5.6
+
+before_script:
+  # Make sure all dev dependencies are installed
+  - composer install
+
+script:
+  - if [[ $RUN_PHPCS == "yes" ]]; then vendor/bin/phpcs --report=full --extensions=php -p --standard=build/phpcs/Joomla plugins; fi
